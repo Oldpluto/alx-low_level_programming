@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main-prints the phrase
  * return: 0 if executed successfully ,nonzero otherwise
  */
