@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* main - Where to enter the print content*/
 
 int main(void)
 {
