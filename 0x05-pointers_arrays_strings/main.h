@@ -8,7 +8,7 @@
  * int prototypes ()
  */
 
-void rest_to-98(int *n);
+void reset_to-98(int *n);
 void _puts(char *str);
 void print_rev(char *s)*
 void rev_string(char *s);
