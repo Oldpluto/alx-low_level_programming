@@ -1,25 +1,34 @@
 #include "main.h"
 
 /**
-  * print_number - Prints any integer with putchar
-  * @n: Number to prints
+  * _strncpy - Copy a string
+  * @dest: The destination value
+  * @src: The source value
+  * @n: The copy limit
   *
-  * Return: Nothing
+  * Return: char value
   */
-void print_number(int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	unsigned int x;
+	int a = 0, b = 0;
 
-	if (n < 0)
+	while (src[b])
 	{
-		_putchar('-');
-		n *= -1;
+		b++;
 	}
 
-	x = n;
+	while (a < n && src[a])
+	{
+		dest[a] = src[a];
+		a++;
+	}
 
-	if (x / 10)
-		print_number(x / 10);
+	while (a < n)
+	{
+		dest[a] = '\0';
+		a++;
+	}
 
-	_putchar(x % 10 + '0');
+	return (dest);
 }
+
