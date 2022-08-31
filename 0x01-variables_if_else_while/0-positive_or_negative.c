@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes ther */
+
+/*
+ * main - Prints if number is positive, Zero or negative
+ *
+ * Return: Always (Successful)
+ */
 int main(void)
 {
 	int n;
