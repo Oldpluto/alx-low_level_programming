@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
- * main - printing the statement 
- * return - 0
- */
 
+/**
+ * main - Prints a function
+ *
+ * return: return 1
+ */
 int main(void)
 {
 	/* main function */
