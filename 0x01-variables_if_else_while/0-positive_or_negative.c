@@ -1,14 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * more headers goes there
- */
-
-/* main - prints if a random number is either postive, negative, or zero
- *
- * Return: 0 (successful)
- */
+/* more headers goes ther */
 int main(void)
 {
 	int n;
