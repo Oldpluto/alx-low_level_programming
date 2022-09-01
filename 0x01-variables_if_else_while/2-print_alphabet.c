@@ -9,6 +9,8 @@
 
 int main(void)
 {
+	char;
+
 	putchar(" ((a-z))\n");
 
 	return (0);
