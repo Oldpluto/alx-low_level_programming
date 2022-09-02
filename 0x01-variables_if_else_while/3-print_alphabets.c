@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	char c, C;
+	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	[
 		putchar(c);
 	}
 
-	for (C = 'A'; C <= 'Z'; C++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar(C);
+		putchar(c);
 	}
 
 	putchar('\n');
