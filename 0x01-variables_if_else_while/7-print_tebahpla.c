@@ -5,14 +5,14 @@
  *
  * main - Print the alphabets in reverse
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
 	char c;
 
-	for (c = 'z'; c >= 'a'; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
 	}
