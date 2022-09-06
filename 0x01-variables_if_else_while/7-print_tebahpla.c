@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- *
- * main - Print the alphabets in reverse
+ * main - Printing Alphabets in Reverse from z-a
  *
  * Return: 0 (success)
  */
