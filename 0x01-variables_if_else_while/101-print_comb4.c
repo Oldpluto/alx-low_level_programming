@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Print combination of 3 digits 
+ * main - Print combination of 3 digits
  *
  * Return: 0 (success)
  */
@@ -23,7 +23,7 @@ int main(void)
 					putchar(b);
 					putchar(c);
 
-					if (a != '8' || (a == '8' && c != 'a'))
+					if (a != '8' || (a == '8' && a != '7'))
 					{
 						putchar(',');
 						putchar(' ');
