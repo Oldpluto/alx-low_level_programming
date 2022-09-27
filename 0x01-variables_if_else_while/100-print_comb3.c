@@ -11,16 +11,16 @@ int main(void)
 {
 	int c, d;
 
-	for (c == '0'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (d == '0'; d <= '9'; d++)
+		for (d = '0'; d <= '9'; d++)
 		{
 			if (c < d)
 			{
 				putchar(c);
 				putchar(d);
 
-				if (c != '8' || (c == '8' && i != '9'))
+				if (c != '8' || (c == '8' && d != '9'))
 				{
 					puchar(',');
 					putchar(' ');
