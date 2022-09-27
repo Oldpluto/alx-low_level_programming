@@ -23,7 +23,7 @@ int main(void)
 					putchar(b);
 					putchar(c);
 
-					if (a != '8' || (a =='8' && c != '9'))
+					if (a != '8' || (a == '8' && c != 'a'))
 					{
 						putchar(',');
 						putchar(' ');
