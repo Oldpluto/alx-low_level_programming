@@ -1,1 +1,1 @@
-putchar("%s", a)
+putchar(char)
