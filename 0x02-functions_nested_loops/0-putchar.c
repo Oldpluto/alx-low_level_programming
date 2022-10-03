@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Printing _putchar on using c
@@ -8,9 +8,7 @@
 
 int main(void)
 {
-	int a = "_putchar";
-
-	putchar("%s", a);
+	_putchar("_putchar");
 
 	return(0);
 }
