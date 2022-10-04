@@ -9,7 +9,8 @@
 void print_alphabet_x10(void)
 {
 	int a;
-	
+	a = 0;
+
 	if (a<11)
 
 	for (a = 'a'; a <= 'z'; a++);
