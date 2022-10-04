@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Print 0 or 1
+ * _islower(int c) - Print 0 or 1
  *
  * Return: 0 or 1
  */
