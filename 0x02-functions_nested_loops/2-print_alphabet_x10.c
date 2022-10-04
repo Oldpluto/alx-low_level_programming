@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char a;
-	a = 0;
+	int c = 0;
 
 	if (a <= 10)
 	{
@@ -21,4 +21,5 @@ void print_alphabet_x10(void)
 
 	_putchar('\n');
 	}
+	c++;
 }
