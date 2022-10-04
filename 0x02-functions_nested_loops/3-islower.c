@@ -2,7 +2,7 @@
 
 /**
  * _islower - Print 0 or 1
- * @i: wether lowercase or not
+ * @c: wether lowercase or not
  *
  * Return: 0 or 1
  */
