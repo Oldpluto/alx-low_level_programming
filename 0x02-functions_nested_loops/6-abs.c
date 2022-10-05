@@ -9,11 +9,13 @@
 
 int _abs(int a)
 {
-	int c;
-
-	a = abs(c);
+	if (a < 0)
 	{
-		_putchar(a);
+		abs_val = a * -1;
+		
+		_putchar(abs_val);
+		
+		return (abs_val);
 	}
-	return (0);
+	return (a);
 }
