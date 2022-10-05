@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _abs - Print the absolute value of an integer
+ * _abs(int) - Print the absolute value of an integer
  *
  * Return: 0 (success)
  */
