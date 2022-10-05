@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * _abs(int) - Print the absolute value of an integer
- *
+ * _abs - Print the absolute value of an integer
+ * @a: just for betty sake lol
  * Return: 0 (success)
  */
 
@@ -14,9 +14,9 @@ int _abs(int a)
 		int abs_val;
 
 		abs_val = a * -1;
-		
+
 		_putchar(abs_val);
-		
+
 		return (abs_val);
 	}
 	return (a);
