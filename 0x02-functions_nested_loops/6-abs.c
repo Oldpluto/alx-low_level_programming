@@ -9,9 +9,9 @@
 
 int _abs(int a)
 {
-	int a;
+	int c;
 
-	a = abs(a);
+	a = abs(c);
 	{
 		_putchar(a);
 	}
