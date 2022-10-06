@@ -9,11 +9,9 @@
 
 void jack_bauer(void)
 {
-	char a;
+	int a;
 
-	while a = '00:00';
-
-	for (a >= '00:00'; a <= '23:59'; a++)
+	for (a <= 00:00; a <= 23:59; a++)
 	{
 		_putchar(a);
 		_putchar('\n');
