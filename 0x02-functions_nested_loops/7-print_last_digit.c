@@ -2,20 +2,23 @@
 
 /**
  * print_last_digit - Printing last digit of a number
- * @n: character as betty need it lol
+ * @n: character as betty need it lol ( the number to be treated)
  *
- * Return: 0 (success)
+ * Return: value of last digit of number
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int a, last;
+	int last_digit;
 
-	a = last * 10;
+	last = n % 10;
 
+	if (last < 0)
 	{
-		_putchar("%d", a);
+		last = last * -1;
 	}
 
-	return (0);
+	_putchar(last + '0');
+
+	return (last);
 }
