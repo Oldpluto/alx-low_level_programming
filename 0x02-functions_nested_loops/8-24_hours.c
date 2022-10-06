@@ -9,7 +9,7 @@
 
 void jack_bauer(void)
 {
-	int a;
+	char a;
 
 	while a = '00:00';
 
