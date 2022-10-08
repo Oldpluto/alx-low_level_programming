@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * jack_bauer - Print the mins of jack bauer day
+ * jack_bauer - Prints mins of a man's Day
  *
- * Return: No return
+ * Return: ...
  */
 
 void jack_bauer(void)
 {
 	int a, b, c, d;
 
-	for (a = 0; a <= 2; a++)
+	for (a = ; a <= 2; a++)
 	{
-		for (b = 0; b <= 3; b++)
+		for (b = 0; b <= 9; b++)
 		{
 			if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 			{
@@ -23,7 +23,7 @@ void jack_bauer(void)
 						_putchar(a + '0');
 						_putchar(b + '0');
 						_putchar(58);
-						_putchar(c + '0');
+						_putchar(c +'0');
 						_putchar(d + '0');
 						_putchar('\n');
 					}
