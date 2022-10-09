@@ -8,7 +8,7 @@
 
 void times_table(void)
 {
-	int x, y, z, a, b;
+	int x, y, z, u, d;
 
 	for (x = 0; x <= 9; x++)
 	{
@@ -18,8 +18,8 @@ void times_table(void)
 
 			if (z > 9)
 			{
-				a = z % 10;
-				b = (z - u) / 10;
+				u = z % 10;
+				d = (z - u) / 10;
 
 				_putchar(44);
 				_putchar(32);
