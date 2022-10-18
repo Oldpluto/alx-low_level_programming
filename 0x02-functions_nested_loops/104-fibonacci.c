@@ -10,19 +10,19 @@
 int main(void)
 {
 	int a = 0;
-	float j = 1, k = 2;
+	int j = 1, k = 2;
 
 	while (a < 98)
 	{
 		if (a == 0)
-			printf("%f", j);
+			printf("%d", j);
 		else if (a == 1)
-			printf(", %f", k);
+			printf(", %d", k);
 		else
 		{
 			k += j;
 			j = k - j;
-			printf(", %f", k);
+			printf(", %d", k);
 		}
 		a++;
 	}
