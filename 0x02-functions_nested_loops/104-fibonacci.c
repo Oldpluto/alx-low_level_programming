@@ -15,14 +15,14 @@ int main(void)
 	while (a < 98)
 	{
 		if (a == 0)
-			printf("%ld", j);
+			printf("%f", j);
 		else if (a == 1)
-			printf(", %ld", k);
+			printf(", %f", k);
 		else
 		{
 			k += j;
 			j = k - j;
-			printf(", %ld", k);
+			printf(", %f", k);
 		}
 		a++;
 	}
