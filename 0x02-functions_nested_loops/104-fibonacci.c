@@ -10,19 +10,19 @@
 int main(void)
 {
 	int a = 0;
-	long j = 1, k = 2;
+	unsigned long j = 1, k = 2;
 
 	while (a < 98)
 	{
 		if (a == 0)
-			printf("%ld", j);
+			printf("%lu", j);
 		else if (a == 1)
-			printf(", %ld", k);
+			printf(", %lu", k);
 		else
 		{
 			k += j;
 			j = k - j;
-			printf(", %ld", k);
+			printf(", %lu", k);
 		}
 		a++;
 	}
