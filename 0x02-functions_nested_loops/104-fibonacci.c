@@ -10,7 +10,7 @@
 int main(void)
 {
 	int a = 0;
-	int j = 1, k = 2;
+	unsigned int j = 1, k = 2;
 
 	while (a < 98)
 	{
