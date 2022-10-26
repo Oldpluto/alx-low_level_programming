@@ -13,8 +13,8 @@ void print_numbers(void)
 
 	while (c => 48 && c <= 57, c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
